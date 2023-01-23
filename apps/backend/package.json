@@ -4,7 +4,7 @@
   "description": "An example Express.js API using TypeScript",
   "main": "main.ts",
   "scripts": {
-    "start": "node main.ts",
+    "start": "nodemon main.ts",
     "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' main.ts",
     "test": "NODE_ENV=test vitest"
   },
@@ -20,6 +20,7 @@
     "pg": "^8.8.0",
     "reflect-metadata": "^0.1.13",
     "ts-node": "^10.9.1",
+    "turbo-ignore": "^0.5.0",
     "typeorm": "^0.3.11",
     "typescript": "^4.9.4",
     "zod": "^3.20.2"

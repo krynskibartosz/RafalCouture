@@ -34,6 +34,7 @@ importers:
       pg: ^8.8.0
       reflect-metadata: ^0.1.13
       ts-node: ^10.9.1
+      turbo-ignore: ^0.5.0
       typeorm: ^0.3.11
       typescript: ^4.9.4
       vite: ^4.0.4
@@ -51,6 +52,7 @@ importers:
       pg: 8.8.0
       reflect-metadata: 0.1.13
       ts-node: 10.9.1_3v2cms72gsblw7jmali7btb3pu
+      turbo-ignore: 0.5.0
       typeorm: 0.3.11_pg@8.8.0+ts-node@10.9.1
       typescript: 4.9.4
       zod: 3.20.2
@@ -3194,6 +3196,11 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /turbo-ignore/0.5.0:
+    resolution: {integrity: sha512-93VCzUdCBCCDVje06jia/lKep4vYbpL2pBNnvxK1+LdrYu5Sug+WN1ybBZ2pwlJ04RQ6wjoejetZDreui3nDYw==}
+    hasBin: true
+    dev: false
 
   /turbo-linux-64/1.7.0:
     resolution: {integrity: sha512-aw2qxmfZa+kT87SB3GNUoFimqEPzTlzlRqhPgHuAAT6Uf0JHnmebPt4K+ZPtDNl5yfVmtB05bhHPqw+5QV97Yg==}
